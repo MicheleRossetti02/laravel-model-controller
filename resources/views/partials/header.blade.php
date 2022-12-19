@@ -10,7 +10,7 @@
                     <a class="nav-link {{Route::currentRouteName() === 'film' ? 'active' : ''}} " href="{{route('film')}}">Home </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link {{Route::currentRouteName() === '' ? 'active' : ''}}" href="#">About</a>
+                    <a class="nav-link {{Route::currentRouteName() === 'about' ? 'active' : ''}}" href="{{route('about')}}">About</a>
                 </li>
 
             </ul>
